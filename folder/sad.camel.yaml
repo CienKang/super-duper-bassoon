@@ -3,3 +3,7 @@
     from:
       uri: direct
       id: from-5b7a
+      steps:
+        - to:
+            uri: amqp
+            id: to-3439
