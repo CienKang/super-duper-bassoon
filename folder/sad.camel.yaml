@@ -7,3 +7,6 @@
         - to:
             uri: amqp
             id: to-3439
+        - to:
+            uri: activemq
+            id: to-9ffe
