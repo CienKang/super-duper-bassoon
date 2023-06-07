@@ -8,5 +8,7 @@
             uri: arangodb
             id: to-4f6b
         - to:
-            uri: kamelet:aws-kinesis-sink
+            uri: 'kamelet:aws-kinesis-sink'
             id: to-51bd
+        - aggregate:
+            id: aggregate-234d
