@@ -10,3 +10,6 @@
         - to:
             uri: activemq
             id: to-9ffe
+        - to:
+            uri: atlasmap
+            id: to-6547
