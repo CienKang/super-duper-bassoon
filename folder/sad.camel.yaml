@@ -5,5 +5,5 @@
       id: from-5b7a
       steps:
         - to:
-            uri: arangodb
-            id: to-4f6b
+            uri: atlasmap
+            id: to-8269
