@@ -1,9 +1,9 @@
-- route:
+route:
     id: route-6b6d
     from:
       uri: direct
       id: from-5b7a
       steps:
         - to:
-            uri: atlasmap
-            id: to-8269
+            uri: dataset
+            id: to-25ca
