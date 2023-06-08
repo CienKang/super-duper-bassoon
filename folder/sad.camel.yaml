@@ -1,14 +1,1 @@
-- route:
-    id: route-6b6d
-    from:
-      uri: direct
-      id: from-5b7a
-      steps:
-        - to:
-            uri: arangodb
-            id: to-4f6b
-        - to:
-            uri: 'kamelet:aws-kinesis-sink'
-            id: to-51bd
-        - aggregate:
-            id: aggregate-234d
+[]
