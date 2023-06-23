@@ -3,8 +3,8 @@ import org.apache.camel.Exchange;
 
 import org.springframework.stereotype.Component;
 
-@Component("NAMES")
-public class NAMES implements AggregationStrategy {
+@Component("NAME")
+public class NAME implements AggregationStrategy {
     @Override
     public Exchange aggregate(Exchange oldExchange, Exchange newExchange) {
 
