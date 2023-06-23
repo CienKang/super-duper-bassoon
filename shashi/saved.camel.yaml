@@ -10,6 +10,9 @@
         - to:
             uri: direct:uri
             id: to-db86
+        - to:
+            uri: kamelet:avro-serialize-action
+            id: to-3ae2
 - route:
     id: route-a639
     from:
