@@ -1,4 +1,3 @@
-
 import org.apache.camel.AggregationStrategy;
 import org.apache.camel.Exchange;
 

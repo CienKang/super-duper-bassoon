@@ -1,0 +1,5 @@
+- route:
+    id: route-d912
+    from:
+      uri: kamelet:aws-kinesis-source
+      id: from-d2f5
