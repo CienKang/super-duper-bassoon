@@ -35,8 +35,3 @@
     from:
       uri: direct:body-logger
       id: from-916e
-      steps:
-        - log:
-            message: ${body}
-            id: log-325c
-            loggingLevel: INFO

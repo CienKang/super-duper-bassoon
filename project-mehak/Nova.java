@@ -15,5 +15,4 @@ public class Nova {
         exchange.setProperty("name", name);
         System.out.println("name",name);
     }
-
 }
