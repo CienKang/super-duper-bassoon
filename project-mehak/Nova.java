@@ -13,6 +13,7 @@ public class Nova {
     public void getNameFromBody(Exchange exchange) {
         String name = exchange.getIn().getBody(String.class);
         exchange.setProperty("name", name);
+        System.out.println("name",name);
     }
 
 }
