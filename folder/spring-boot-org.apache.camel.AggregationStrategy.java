@@ -1,7 +1,6 @@
 import org.apache.camel.AggregationStrategy;
 import org.apache.camel.Exchange;
 import org.springframework.stereotype.Component;
-import java.util.*;
 
 @Component("NAME")
 public class NAME implements AggregationStrategy {
