@@ -1,0 +1,42 @@
+- route:
+    id: route-6b47
+    from:
+      uri: direct
+      id: from-ea6b
+      steps:
+        - bean:
+            id: bean-e8c2
+            ref: novaBean
+            method: getNameFromBody
+        - to:
+            uri: direct:uri
+            id: to-4049
+- route:
+    id: route-a639
+    from:
+      uri: direct:uri
+      id: from-1090
+      steps:
+        - choice:
+            when:
+              - id: when-e39f
+                expression: {}
+            id: choice-4e08
+            otherwise:
+              id: otherwise-5d52
+        - log:
+            message: ${body}
+            id: log-6ac6
+        - to:
+            uri: direct:body-logger
+            id: to-5165
+- route:
+    id: route-b072
+    from:
+      uri: direct:body-logger
+      id: from-916e
+      steps:
+        - log:
+            message: ${body}
+            id: log-325c
+            loggingLevel: INFO
